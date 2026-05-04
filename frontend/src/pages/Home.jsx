@@ -146,10 +146,10 @@ const Home = () => {
                     color: white;
                     text-align: center;
                 }
-                .women { background: url('https://images.unsplash.com/photo-1589156226687-01369325c792?q=80&w=800') center/cover; }
-                .men { background: url('https://images.unsplash.com/photo-1488161628813-244a2dcba2aa?q=80&w=800') center/cover; }
-                .ethnic { background: url('https://images.unsplash.com/photo-1610030469668-80980c6530a6?q=80&w=800') center/cover; }
-                .western { background: url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800') center/cover; }
+                .women { background: url('/images/cat_women.jpg') center/cover; }
+                .men { background: url('/images/cat_men.jpg') center/cover; }
+                .ethnic { background: url('/images/cat_ethnic.webp') center/cover; }
+                .western { background: url('/images/cat_western.jpg') center/cover; }
 
                 /* Fix Hero Buttons */
                 .hero-btns { display: flex; gap: 20px; margin-top: 35px; }
