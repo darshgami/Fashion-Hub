@@ -47,7 +47,7 @@ const ProductDetail = () => {
                     initial={{ opacity: 0, x: -30 }}
                     animate={{ opacity: 1, x: 0 }}
                 >
-                    <img src={product.image || 'https://via.placeholder.com/600x800'} alt={product.name} />
+                    <img src={product.image || 'https://placehold.co/600x800'} alt={product.name} />
                 </motion.div>
 
                 <motion.div 

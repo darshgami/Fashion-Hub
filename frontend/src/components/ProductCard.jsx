@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
     return (
         <div className="product-card">
             <div className="product-img">
-                <img src={product.image || 'https://via.placeholder.com/300x400?text=Fashion+Hub'} alt={product.name} />
+                <img src={product.image || 'https://placehold.co/300x400?text=Fashion+Hub'} alt={product.name} />
                 <div className="product-actions">
                     <button onClick={() => addToCart(product)} title="Add to Cart"><ShoppingCart size={18} /></button>
                     <button onClick={() => toggleWishlist(product)} title="Add to Wishlist" style={{ color: fav ? '#f43f5e' : 'white', background: fav ? 'white' : 'var(--primary)' }}>

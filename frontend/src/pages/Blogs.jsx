@@ -46,7 +46,7 @@ const Blogs = () => {
                                 transition={{ delay: index * 0.1 }}
                             >
                                 <div className="blog-img">
-                                    <img src={blog.image || 'https://via.placeholder.com/500x300?text=Fashion+Hub+Blog'} alt={blog.title} />
+                                    <img src={blog.image || 'https://placehold.co/500x300?text=Fashion+Hub+Blog'} alt={blog.title} />
                                 </div>
                                 <div className="blog-info">
                                     <div className="blog-meta">
